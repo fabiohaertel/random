@@ -1,0 +1,95 @@
+<head>
+
+    <style type="text/css">
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            min-width: 300px;
+        }
+        
+        .popup_wrapper {
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        
+        .popup_header {
+            position: relative;
+            width: 100%;
+            height: 20px;
+            padding: 5px 5px 5px 10px;
+            font-weight: bold;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .ext_title {
+            border-bottom: 1px solid #ddd;
+            margin: 0;
+            padding: 5px;
+            text-align: center;
+        }
+        
+        .popup_footer {
+            margin: 0;
+            padding: 5px;
+            text-align: center;
+        }
+        
+        .popup_footer button {
+            border-radius: 4px;
+            padding: 6px 12px;
+            border: 1px solid transparent;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        
+        .popup_footer button.bt-ignore {
+            color: #fff;
+            background-color: #d9534f;
+            border-color: #d43f3a;
+        }
+        
+        .popup_footer button.bt-ignore:hover {
+            color: #fff;
+            background-color: #c9302c;
+            border-color: #ac2925;
+        }
+        
+        .popup_footer button.bt-open {
+            color: #fff;
+            background-color: #337ab7;
+            border-color: #2e6da4;
+        }
+        
+        .popup_footer button.bt-open:hover {
+            color: #fff;
+            background-color: #286090;
+            border-color: #204d74;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="popup_wrapper">
+        <div class="popup_header">
+            <span>Promocoes</span>
+        </div>
+
+        <div id="ultimo_wrapper">
+            <span id="ultimo_span"></span>
+        </div>
+
+        <div class="popup_footer">
+            <button id="ignore" class="bt-ignore">Ignorar</button>
+            <button id="open" class="bt-open">Abrir Forum</button>
+        </div>
+
+
+
+    </div>
+
+
+    <script src="popup.js"></script>
+</body>
