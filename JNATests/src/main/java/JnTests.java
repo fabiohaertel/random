@@ -45,7 +45,7 @@ public class JnTests
 
             // 0x0100 = WM_KEYDOWN - pressionar tecla
             // 0x41 = letra A
-            // 6 = seis repetições
+            // 6 = seis repetições.
             base.jnPostMessage(childEdit, 0x0100, new WinDef.WPARAM(0x41), new WinDef.LPARAM(6));
         }
 
