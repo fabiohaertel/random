@@ -3,7 +3,7 @@ import com.sun.jna.Native;
 
 /**
  * Created by fabio on 25/07/2016.
- * Chama função de uma DLL via JNA!
+ * Chama função de uma DLL via JNA.
  */
 public class FuncDLL
 {
