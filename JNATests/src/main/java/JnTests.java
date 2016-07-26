@@ -3,7 +3,7 @@ import com.sun.jna.platform.win32.WinDef;
 
 /**
  * Created by fabio on 25/07/2016.
- * Testes JNA (Java Native API)
+ * Testes JNA (Java Native API).
  */
 
 public class JnTests
