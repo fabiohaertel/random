@@ -120,7 +120,7 @@ public class JnBase
 
     /**
      * Cria uma janela (dialog)
-     * Não funciona ainda, falta definir a estrutura do lpClassName
+     * Não funciona ainda, falta definir a estrutura do lpClassName por outra função.
      */
     public WinDef.HWND jnCreateWindowEx(WinDef.DWORD dwExStyle, String lpClassName, String lpWindowName,
                                         WinDef.DWORD dwStyle, int x, int y,
