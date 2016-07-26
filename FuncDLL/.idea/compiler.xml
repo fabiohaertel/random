@@ -22,13 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="JNA" />
-        <module name="JnTests" />
+        <module name="FuncDLL" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JNA" target="1.5" />
-      <module name="JnTests" target="1.5" />
+      <module name="FuncDLL" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
