@@ -30,8 +30,6 @@ Fábio Haertel Kochhann
 
 <!-- tocstop -->
 
-[TOC]
-
 # 1. Arquitetura
 ## 1.1 Visão Geral
 Explicar que existe o padrão antigo, com os fontes importados diretamente do webapp/js, e os padrões novos, com fontes gerados e concatenados no arquivo app.js (GED) ou gerados separadamente para cada app angular (bundles).
@@ -55,5 +53,5 @@ Explicar passo a passo como criar, compilar e importar uma aplicação angular n
 ## 5.2 Webpack
 TODO
 # 6. Internacionalização (I18n)
-Explicar que cada app angular pode ter um m󤵬o de i18n separado. Dizer como criar os .java e como importar no bloco config da app angular.
+Explicar que cada app angular pode ter um móduloo de i18n separado. Dizer como criar os .java e como importar no bloco config da app angular.
 # 7. Considerações Finais
