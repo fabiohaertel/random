@@ -7,31 +7,6 @@ Fábio Haertel Kochhann
 
 ### Tabela de Conteúdo
 
-<!-- toc -->
-
-- [1. Arquitetura](#1-arquitetura)
-  * [1.1 Visão Geral](#11-visao-geral)
-- [2. Configuração do Ambiente](#2-configuracao-do-ambiente)
-  * [2.1 NodeJS](#21-nodejs)
-  * [2.2 Yarn](#22-yarn)
-  * [2.3 Gulp](#23-gulp)
-- [3. Compilação dos Fontes](#3-compilacao-dos-fontes)
-- [4. Watchers](#4-watchers)
-- [5. Criação de Aplicação AngularJS](#5-criacao-de-aplicacao-angularjs)
-  * [5.1 Bundles](#51-bundles)
-    + [5.1.1 Definição de um Bundle](#511-definicao-de-um-bundle)
-    + [5.1.2 Componentes](#512-componentes)
-    + [5.1.3 Tasks Gulp](#513-tasks-gulp)
-    + [5.1.4 Watchers](#514-watchers)
-    + [5.1.5 Aplicação gerada](#515-aplicacao-gerada)
-  * [5.2 Webpack](#52-webpack)
-- [6. Internacionalização (I18n)](#6-internacionalizacao-i18n)
-- [7. Considerações Finais](#7-consideracoes-finais)
-
-<!-- tocstop -->
-
-<!-- tocend -->
-
 # 1. Arquitetura
 ## 1.1 Visão Geral
 Explicar que existe o padrão antigo, com os fontes importados diretamente do webapp/js, e os padrões novos, com fontes gerados e concatenados no arquivo app.js (GED) ou gerados separadamente para cada app angular (bundles).
