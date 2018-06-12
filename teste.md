@@ -10,7 +10,7 @@ Fábio Haertel Kochhann
 <!-- toc -->
 
 - [1. Arquitetura](#1-arquitetura)
-  * [1.1 Visão Geral](#11-visão-geral)
+  * [1.1 Visão Geral](#11-visao-geral)
 - [2. Configuração do Ambiente](#2-configuracao-do-ambiente)
   * [2.1 NodeJS](#21-nodejs)
   * [2.2 Yarn](#22-yarn)
